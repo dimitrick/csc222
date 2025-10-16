@@ -5,7 +5,11 @@ using namespace std;
 string toUpper(string s) {
     string newString = "";
     for (int i = 0; i < s.length(); i++) {
-        newString += s[i] - 32;
+        if (s[i] >= 97) {
+            newString += s[i] - 32;
+        } else {
+            newString += s[i];
+        }
     }
     return newString;
 }
@@ -13,7 +17,11 @@ string toUpper(string s) {
 string toLower(string s) {
     string newString = "";
     for (int i = 0; i < s.length(); i++) {
-        newString += s[i] + 32;
+        if (s[i] <= 97) {
+            newString += s[i] + 32;
+        } else {
+            newString += s[i];
+        }
     }
     return newString;
 }
