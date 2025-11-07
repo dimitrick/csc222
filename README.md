@@ -1,2 +1,2 @@
 # csc222
-hello welcome to my repository
+Here you can find my stuff that I worked on in CSC 222
