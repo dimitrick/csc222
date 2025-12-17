@@ -1,0 +1,48 @@
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled files
+*.o
+*.a
+*.so
+*.out
+a.out
+*.dSYM/
+*.iml
+
+# Test files
+test*
+*test*
+
+# Answer files
+answers*
+
+# Project-specific
+zshrc*
+
+# Build artifacts
+build/
+dist/
+*.class
+*.jar
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+
+# OS files
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+csc222/
+RobotsAreComingCPP/
+
+
